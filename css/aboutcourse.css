@@ -1,0 +1,75 @@
+@import url("./navbar.css");
+
+.hero h1 {
+  font-size: 45px;
+  color: var(--main-color);
+  font-style: italic;
+  padding-bottom: 20px;
+  text-shadow: rgb(0, 0, 0) 0.5px 0px 0px,
+    rgb(0, 0, 0) 0.540302px 0.841471px 0px,
+    rgb(0, 0, 0) -0.416147px 0.909297px 0px,
+    rgb(0, 0, 0) -0.989992px 0.14112px 0px,
+    rgb(0, 0, 0) -0.653644px -0.756802px 0px,
+    rgb(0, 0, 0) 0.283662px -0.958924px 0px,
+    rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  padding-top: 10px;
+}
+
+.hero p {
+  font-size: 19px;
+  color: white;
+  width: 60%;
+  text-align: justify;
+}
+
+.hero .right img {
+  width: 400px;
+  border-radius: 50%;
+}
+
+.about {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 45px;
+  color: var(--main-color);
+  letter-spacing: 1px;
+  padding-bottom: 25px;
+  text-shadow: rgb(0, 0, 0) 0.5px 0px 0px,
+    rgb(0, 0, 0) 0.540302px 0.841471px 0px,
+    rgb(0, 0, 0) -0.416147px 0.909297px 0px,
+    rgb(0, 0, 0) -0.989992px 0.14112px 0px,
+    rgb(0, 0, 0) -0.653644px -0.756802px 0px,
+    rgb(0, 0, 0) 0.283662px -0.958924px 0px,
+    rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.about .first,
+.about .second,
+.about .third {
+  padding: 0 40px;
+  color: white;
+  font-size: 19px;
+  text-align: justify;
+}
+
+.about .first,
+.about .second {
+  padding-bottom: 30px;
+}
+
+.end {
+  padding-top: 40px;
+  text-align: center;
+  font-family: "Staatliches";
+}

@@ -1,0 +1,87 @@
+@import url("./navbar.css");
+
+.hero h1 {
+  font-size: 45px;
+  color: var(--main-color);
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.hero {
+  padding: 40px;
+}
+
+.hero p {
+  font-size: 19px;
+  color: white;
+}
+
+.numbers {
+  padding: 40px;
+  margin-top: 20px;
+  background-color: rgba(0, 68, 255, 0.74);
+}
+
+.numbers h1,
+p {
+  color: white;
+}
+
+.numbers .heading {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.numbers ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.numbers li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.numbers li h1 {
+  font-size: 40px;
+}
+
+.group {
+  margin-top: 50px;
+  padding: 90px;
+  position: relative;
+}
+
+.group::before {
+  background-image: url("../img/group.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: grayscale();
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.group h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.group p {
+  font-size: 19px;
+  text-align: center;
+}
+.card {
+  background-color: rgba(27, 85, 209, 0.76);
+  padding: 20px;
+  width: 30%;
+  border-radius: 2px;
+}
