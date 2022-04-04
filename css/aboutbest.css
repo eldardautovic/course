@@ -120,4 +120,8 @@
   .numbers ul {
     justify-content: space-between;
   }
+
+  .hero p {
+    word-break: break-all;
+  }
 }
