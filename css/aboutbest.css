@@ -1,0 +1,123 @@
+@import url("./navbar.css");
+
+.hero h1 {
+  font-size: 45px;
+  color: var(--main-color);
+  padding-bottom: 20px;
+  font-style: italic;
+  animation-name: fromUp;
+  animation-duration: 0.5s;
+}
+
+.hero {
+  padding: 40px;
+}
+
+.hero p {
+  font-size: 19px;
+  color: var(--white);
+  animation-name: fromUp;
+  animation-duration: 0.6s;
+  text-align: justify;
+}
+
+.numbers {
+  padding: 40px;
+  margin-top: 20px;
+  background-color: rgba(0, 114, 185, 0.461);
+  animation-name: fromLeft;
+  animation-duration: 0.9s;
+}
+
+.numbers h1,
+.group p,
+.numbers p {
+  color: white;
+  text-shadow: none;
+  letter-spacing: 2px;
+}
+
+.numbers .heading {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.numbers ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.numbers li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.numbers li h1 {
+  font-size: 40px;
+}
+
+.group {
+  margin-top: 50px;
+  padding: 90px;
+  background-image: url("../img/group.png");
+  background-size: cover;
+  background-position: center;
+
+  margin-bottom: 40px;
+}
+
+.group h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+  text-shadow: none;
+  letter-spacing: 2px;
+}
+
+.group p {
+  font-size: 19px;
+  text-align: center;
+}
+.card {
+  background-color: rgba(0, 114, 185, 0.664);
+  padding: 20px;
+  border-radius: 2px;
+  animation-name: fromLeft;
+  animation-duration: 0.5s;
+}
+
+@keyframes fromUp {
+  from {
+    transform: translateY(-20px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fromLeft {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .numbers li h1 {
+    font-size: 30px;
+  }
+
+  .numbers li p {
+    font-size: 15px;
+  }
+
+  .numbers ul {
+    justify-content: space-between;
+  }
+}
