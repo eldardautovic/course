@@ -1,34 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100;1,400;1,500&family=Staatliches&display=swap");
-
-body {
-  background: url("./img/background.jpg");
-  background-position: center;
-  background-size: cover;
-  backdrop-filter: blur(8px);
-  min-height: 100vh;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.521);
-  position: relative;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --main-color: rgb(27, 84, 209);
-}
-
-h1 {
-  text-shadow: rgb(0, 0, 0) 0.5px 0px 0px,
-    rgb(0, 0, 0) 0.540302px 0.841471px 0px,
-    rgb(0, 0, 0) -0.416147px 0.909297px 0px,
-    rgb(0, 0, 0) -0.989992px 0.14112px 0px,
-    rgb(0, 0, 0) -0.653644px -0.756802px 0px,
-    rgb(0, 0, 0) 0.283662px -0.958924px 0px,
-    rgb(0, 0, 0) 0.96017px -0.279415px 0px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("./css/navbar.css");
 
 header .navbar {
   display: flex;
@@ -77,10 +49,11 @@ header {
 }
 
 .landingText h1 {
-  font-family: "Staatliches";
+  font-family: "Bebas Neue";
   color: var(--main-color);
   font-size: 50px;
   letter-spacing: 2px;
+  font-style: italic;
 }
 
 a {
@@ -95,7 +68,7 @@ a {
 
 .countdown h1 {
   padding-top: 30px;
-  font-family: "Staatliches";
+  font-family: "Bebas Neue";
   color: var(--main-color);
   font-size: 50px;
   letter-spacing: 2px;
@@ -138,7 +111,7 @@ a {
 }
 
 .info h1 {
-  font-family: "Staatliches";
+  font-family: "Bebas Neue";
   color: var(--main-color);
   letter-spacing: 2px;
   padding-bottom: 15px;

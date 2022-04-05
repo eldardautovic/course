@@ -1,0 +1,116 @@
+@import url("./navbar.css");
+
+body {
+  padding-bottom: 0;
+}
+
+.hero {
+  font-size: 45px;
+  color: var(--main-color);
+  padding-bottom: 20px;
+  padding-left: 40px;
+  font-style: italic;
+  margin-top: 40px;
+}
+
+.sponsors {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--white);
+}
+
+.sponsors > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gold {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: fromUp;
+  animation-duration: 1s;
+}
+
+.silver {
+  animation-name: fromLeft;
+  animation-duration: 0.9s;
+}
+
+.bronze {
+  animation-name: fromRight;
+  animation-duration: 0.8s;
+}
+
+.goldSponsor,
+.bronzeSponsor,
+.silverSponsor {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.goldSponsor {
+  width: 250px;
+  height: 250px;
+}
+
+.silverSponsor {
+  background-image: url("../img/mistral.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bronzeSponsor {
+  background-image: url("../img/hnk.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+@keyframes fromUp {
+  from {
+    transform: translateY(-40px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fromLeft {
+  from {
+    transform: translateX(-40px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fromRight {
+  from {
+    transform: translateX(40px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sponsors {
+    flex-direction: column;
+  }
+
+  .sponsors > * {
+    margin-bottom: 50px;
+  }
+}
