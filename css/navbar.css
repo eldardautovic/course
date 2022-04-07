@@ -65,11 +65,14 @@ h1 {
 footer {
   color: rgba(255, 255, 255, 0.637);
   font-family: "Roboto";
-  padding-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+}
+
+footer a {
+  margin-left: 2px;
 }
 
 .heart {
