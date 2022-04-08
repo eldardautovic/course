@@ -66,6 +66,48 @@
   background-size: cover;
 }
 
+.russia {
+  background-image: url("../img/flags/russia.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.slovakia {
+  background-image: url("../img/flags/slovakia.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.slovakia {
+  background-image: url("../img/flags/france.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.italy {
+  background-image: url("../img/flags/italia.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.macedonia {
+  background-image: url("../img/flags/macedonia.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.ukraine {
+  background-image: url("../img/flags/ukraine.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.france {
+  background-image: url("../img/flags/france.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 .core-team .circle .prof {
   width: 150px;
   height: 150px;
