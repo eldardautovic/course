@@ -124,4 +124,7 @@
   .hero p {
     word-break: break-all;
   }
+  .group {
+    padding: 40px;
+  }
 }

@@ -7,7 +7,7 @@ var typewriter = new Typewriter(app, {
 
 typewriter
   .typeString(
-    `We need You on very important mission In order to complete your
+    `We need You on very important mission. In order to complete your
           mission BEST as possible you will need a
           <a href="./downloads/Survival-guide.pdf" download="survival-guide">Survival Guide</a>. And to do it in time, here is Your
           <a href="#">Agenda</a>.`

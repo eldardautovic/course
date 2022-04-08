@@ -111,4 +111,7 @@ footer a {
   header .navbar > * {
     margin-bottom: 20px;
   }
+  footer {
+    font-size: 11px;
+  }
 }
